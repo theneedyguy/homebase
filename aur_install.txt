@@ -1,0 +1,10 @@
+brightnessctl
+cava
+compton-tryone-git
+i3lock-color-git
+mkchromecast
+nerd-fonts-source-code-pro
+popcorntime-git
+py-todo
+spotify
+visual-studio-code-bin

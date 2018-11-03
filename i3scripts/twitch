@@ -1,0 +1,10 @@
+#!/bin/bash
+
+response=$(curl -s -H 'Client-ID: aolj17gzkc8ano04rc8nifenw35rzf' -X GET 'https://api.twitch.tv/kraken/streams/destiny' | jq .stream.stream_type)
+
+if [ $response == "null" ]
+then
+	echo "offline"
+else
+	echo "live"
+fi	
