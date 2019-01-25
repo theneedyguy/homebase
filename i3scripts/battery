@@ -63,7 +63,7 @@ if ($acpi =~ /(\d\d:\d\d):/) {
 }
 
 # Print text
-print "$full_text\n";
+#print "$full_text\n";
 print "$short_text\n";
 
 ###############################################
